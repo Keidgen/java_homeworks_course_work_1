@@ -6,7 +6,7 @@ public class Employee {
 
     private String name;
     private int department;
-    private int salary;
+    private double salary;
 
     public Employee(String name, int department, int salary) {
         this.id = counter;
@@ -28,7 +28,7 @@ public class Employee {
         return department;
     }
 
-    public int getSalary() {
+    public double getSalary() {
         return salary;
     }
 
@@ -36,7 +36,7 @@ public class Employee {
         this.department = department;
     }
 
-    public void setSalary(int salary) {
+    public void setSalary(double salary) {
         this.salary = salary;
     }
 
